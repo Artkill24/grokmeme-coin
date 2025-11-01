@@ -1,0 +1,10 @@
+[package]
+name = "GrokMeme"
+version = "1.0.0"
+authors = ["GrokMeme Team"]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "mainnet" }
+
+[addresses]
+grokmeme = "_"  # Verrà sostituito con il tuo indirizzo al deploy
